@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MovieList from './Movie/MovieList';
+import IndonesiaMovies from './IndonesiaMovies';
 import Menu from './Menu';
 
 function Home() {
@@ -7,7 +7,7 @@ function Home() {
     <div>
       <Menu />
 
-      <MovieList />
+      <IndonesiaMovies />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
 
 import Home from '../components/Home.js';
@@ -15,9 +16,16 @@ const store = configureStore();
 class App extends Component {
   render() {
     return (
-      <div>
-      <Home />
-
+      <div className="App">
+      <Provider store = {store}>
+      <Router>
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/popular' component={MoviePopuler} />
+        <Route exact path='/:id' component={MovieDetail} />
+      </Switch>
+      </Router>
+      </Provider>
       </div>
     );
   }
