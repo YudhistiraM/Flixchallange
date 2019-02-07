@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <div>
       <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="#home"><a className="brand">TokoFlix</a></Navbar.Brand>
+          <Navbar.Brand href="#home"><a className="customNavRight">TokoFlix</a></Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#features">Populer</Nav.Link>
