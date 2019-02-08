@@ -1,0 +1,12 @@
+.nowPlayingTab {
+  padding: 1em;
+}
+
+.nowPlayingCard{
+  margin-bottom: 1em;
+}
+
+.nowPlayingCard button a {
+  color: white;
+  text-decoration: none;
+}
