@@ -5,7 +5,7 @@ TOKOFLIX Aplication Using [TMDB](https://developers.themoviedb.org/3/getting-sta
 
 ## HOW TO USE
 
-> git clone https://github.com/YudhistiraM/Tokoflix.git
+> git clone
 
 > npm install
 
